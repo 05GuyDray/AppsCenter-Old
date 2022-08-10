@@ -1,0 +1,21 @@
+.img-logo{
+    border-radius: 50%;
+    
+}
+
+.text{
+   padding: 0;
+   margin: 0;
+}
+.app-margin{
+  margin: 2.5%;
+}
+
+.no-paddin{
+  padding: 0;
+}
+
+.logo-padding{
+  padding: 2.5%;
+  padding-bottom: 5%;
+}
