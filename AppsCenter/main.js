@@ -12,7 +12,7 @@ const getData = () => {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-
+    document.getElementById("apps").innerHTML = makeApplicationsHtml(getData());
 });
 
 
@@ -52,18 +52,14 @@ const makeAppHtml = (appData) => {
         </div>
     </div>`
 }
-function ImageExist(url) {
-   var img = new Image();
-   img.src = url;
-   console.log(img.height != 0);
-   return img.height != 0;
-}
 
 
-window.onload = () => { 
-    // let urlTest = `\\images\\${appData.id}\\${appData.imageUrl}`
-    // console.log(\\images\\${appData.id}\\${appData.imageUrl});
-    document.getElementById("apps").innerHTML = makeApplicationsHtml(getData());
-   
-  
+const loadLogo = () => {
+
+    let logo =  `<div class="row"><p><p></div><!-- fix it and add a good border -->
+    <img  class = "mx-auto d-block" src="images\AppsCenter.png" alt="logo"></img>`
+    document.getElementsByClassName().forEach(
+        
+    )
 }
+
